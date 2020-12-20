@@ -14,7 +14,7 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         app:cardCornerRadius="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_12sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -43,7 +43,7 @@
                 android:fontFamily="@font/dinnextltarabicmedium2"
                 android:text="حساب السعرات الحرارية"
                 android:textColor="#361c29"
-                android:textSize="@dimen/_18ssp"
+                android:textSize="@dimen/_16ssp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/main_iv_cal"
                 app:layout_constraintStart_toStartOf="@+id/main_iv_cal"
@@ -58,7 +58,7 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         app:cardCornerRadius="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_16sdp"
         app:layout_constraintEnd_toEndOf="@+id/main_card_cal"
         app:layout_constraintStart_toStartOf="@+id/main_card_cal"
         app:layout_constraintTop_toBottomOf="@+id/main_card_cal" >
@@ -87,7 +87,7 @@
                 android:fontFamily="@font/dinnextltarabicmedium2"
                 android:text="وصفات غذائية لرجيم"
                 android:textColor="#FFFFFF"
-                android:textSize="@dimen/_18ssp"
+                android:textSize="@dimen/_16ssp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/main_iv_diet"
                 app:layout_constraintStart_toStartOf="@+id/main_iv_diet"
@@ -102,7 +102,7 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         app:cardCornerRadius="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_16sdp"
         app:layout_constraintEnd_toEndOf="@+id/main_card_diet"
         app:layout_constraintStart_toStartOf="@+id/main_card_diet"
         app:layout_constraintTop_toBottomOf="@+id/main_card_diet" >
@@ -131,7 +131,7 @@
                 android:fontFamily="@font/dinnextltarabicmedium2"
                 android:text="حساب الوزن المثالي"
                 android:textColor="#361c29"
-                android:textSize="@dimen/_18ssp"
+                android:textSize="@dimen/_16ssp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/main_iv_weight"
                 app:layout_constraintStart_toStartOf="@+id/main_iv_weight"
