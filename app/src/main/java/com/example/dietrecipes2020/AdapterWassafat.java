@@ -1,6 +1,7 @@
 package com.example.dietrecipes2020;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,20 @@ public class AdapterWassafat extends RecyclerView.Adapter<AdapterWassafat.ViewHo
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Item item = itemsList.get(position);
         holder.text.setText(item.getText());
+        Context context = holder.itemView.getContext();
+        holder.text.setText(item.getText());
+        switch (position){
+            case 0:{
+                holder.itemView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+//                        Intent intent = new Intent(context, recipe1.class);
+//                        intent.putExtra("item", item.getText());
+//                        context.startActivity(intent);
+                    }
+                });
+            }break;
+        }
 
 
     }
